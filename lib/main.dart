@@ -33,8 +33,12 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.arrow_right),
-          )
+            icon: const Icon(Icons.pause),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.double_arrow),
+          ),
         ],
       ),
       body: Image.network(
